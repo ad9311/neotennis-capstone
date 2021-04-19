@@ -26,6 +26,15 @@ body {
 	margin: auto;
 }
 
+.carousel-container-inner {
+	width: 650px;
+	margin: auto;
+}
+
+.search-section {
+	height: auto;
+}
+
 .footer-logo-container {
 	width: 150px;
 }
@@ -37,6 +46,18 @@ body {
 	background-blend-mode: darken;
 }
 
+.buy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 30px;
+	input {
+		border: transparent;
+		border-left: 1px solid $color3;
+	}
+}
+
 /* Backgrounds */
 .bg1 {
 	background-color: $color1;
@@ -44,6 +65,10 @@ body {
 
 .bg3 {
 	background-color: $color3;
+}
+
+.bg-light {
+	background-color: $light;
 }
 
 .bg-medium {
@@ -68,7 +93,7 @@ body {
 }
 
 .fss {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 .color1 {
@@ -124,10 +149,13 @@ body {
 }
 
 /* Inputs */
-
 .input {
 	width: 180px;
 	height: 30px;
+}
+
+.input-search {
+	width: 180px;
 }
 
 .add {
@@ -137,4 +165,35 @@ body {
 
 .label {
 	width: 80px;
+}
+
+/* Grids */
+.products-grid {
+	display: block;
+}
+
+@media (min-width: 576px) {
+	.products-grid {
+		display: grid;
+		column-gap: 15px;
+		grid-template-columns: auto auto;
+  	grid-template-rows: auto auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.search-section {
+		height: 220px;
+	}
+
+	.input-search {
+		width: 80px;
+	}
+
+	.products-grid {
+		display: grid;
+		column-gap: 15px;
+		grid-template-columns: auto auto auto auto;
+  	grid-template-rows: auto;
+	}
 }

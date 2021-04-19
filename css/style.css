@@ -19,6 +19,15 @@ body {
   margin: auto;
 }
 
+.carousel-container-inner {
+  width: 650px;
+  margin: auto;
+}
+
+.search-section {
+  height: auto;
+}
+
 .footer-logo-container {
   width: 150px;
 }
@@ -30,6 +39,18 @@ body {
   background-blend-mode: darken;
 }
 
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+.buy input {
+  border: transparent;
+  border-left: 1px solid #383838;
+}
+
 /* Backgrounds */
 .bg1 {
   background-color: #d35266;
@@ -37,6 +58,10 @@ body {
 
 .bg3 {
   background-color: #383838;
+}
+
+.bg-light {
+  background-color: white;
 }
 
 .bg-medium {
@@ -61,7 +86,7 @@ body {
 }
 
 .fss {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .color1 {
@@ -120,6 +145,10 @@ body {
   height: 30px;
 }
 
+.input-search {
+  width: 180px;
+}
+
 .add {
   width: 24px;
   height: 24px;
@@ -127,6 +156,36 @@ body {
 
 .label {
   width: 80px;
+}
+
+/* Grids */
+.products-grid {
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .products-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+@media (min-width: 768px) {
+  .search-section {
+    height: 220px;
+  }
+
+  .input-search {
+    width: 80px;
+  }
+
+  .products-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

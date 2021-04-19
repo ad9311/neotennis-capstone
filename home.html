@@ -38,15 +38,15 @@
           </li>
         </ul>
       </nav>
-      <section class="container-wide header-img py-4 bg1 text-center">
-        <hgroup class="pb-3 color-light">
+      <section class="container-wide search-section header-img py-4 bg1 text-center">
+        <hgroup class="pb-5 color-light">
           <h1 class="text-uppercase ftgb">NeoTennis</h1>
           <h3 class="fs-6">Buy the best sneakers online!</h3>
         </hgroup>
         <div>
-          <ul class="list fss">
+          <ul class="list fss d-md-flex justify-content-center">
             <li class="mb-2">
-              <select class="input border-0" name="categories">
+              <select class="input border-0 bg-light color2" name="categories">
                 <option value="Running" selected>Running</option>
                 <option value="Beach">Beach</option>
                 <option value="Casual">Casual</option>
@@ -60,116 +60,204 @@
               <input class="input border-0" type="text" name="location" placeholder="Country/Region" value="">
             </li>
             <li>
-              <input class="input bg3 color2 border-0 fthm" type="button" name="search" value="Search">
+              <input class="input input-search bg3 color2 border-0 fthm" type="button" name="search" value="Search">
             </li>
           </ul>
         </div>
       </section>
     </header>
     <main>
-      <section class="container-wide d-none bg3 color-light">
-        <h2 class="color2 text-uppercase fs-5">Featrured</h2>
+      <section class="carousel-container d-none d-lg-block color-light py-4">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner carousel-container">
+          <div class="carousel-inner carousel-container-inner">
+            <h2 class="color2 text-uppercase fs-5">Featrured</h2>
             <div class="carousel-item active">
               <div class="d-flex">
-                <img src="./img/nike.jpg" alt="img">
-                <div>
-                  <h3>Nike Red Hell</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <span>$<strong>1200</strong></span>
+                <a href="#"><img src="./img/nike.jpg" alt="img"></a>
+                <div class="d-flex flex-column justify-content-between ps-4 py-3">
+                  <div>
+                    <h3 class="color1">Nike Red Hell</h3>
+                    <p class="color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="pt-3">
+                      <span class="color2 fthm"><strong class="color1">Free shipping</strong> to U.S.</span>
+                    </div>
+                  </div>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 color-light" type="button" name="purchase" value="Purchase">
+                  </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="d-flex">
-                <img src="./img/nike.jpg" alt="img">
-                <div>
-                  <h3>Nike Red Hell</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <span>$<strong>1200</strong></span>
+                <a href="#"><img src="./img/nike.jpg" alt="img"></a>
+                <div class="d-flex flex-column justify-content-between ps-4 py-3">
+                  <div>
+                    <h3 class="color1">Nike Red Hell</h3>
+                    <p class="color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="pt-3">
+                      <span class="color2 fthm"><strong class="color1">Free shipping</strong> to U.S.</span>
+                    </div>
+                  </div>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 color-light" type="button" name="purchase" value="Purchase">
+                  </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="d-flex">
-                <img src="./img/nike.jpg" alt="img">
-                <div>
-                  <h3>Nike Red Hell</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <span>$<strong>1200</strong></span>
+                <a href="#"><img src="./img/nike.jpg" alt="img"></a>
+                <div class="d-flex flex-column justify-content-between ps-4 py-3">
+                  <div>
+                    <h3 class="color1">Nike Red Hell</h3>
+                    <p class="color2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="pt-3">
+                      <span class="color2 fthm"><strong class="color1">Free shipping</strong> to U.S.</span>
+                    </div>
+                  </div>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 color-light" type="button" name="purchase" value="Purchase">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z"/></svg>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"   data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg>
           </button>
         </div>
       </section>
       <section class="container-wide bg-medium my-3 py-2 shadow">
         <hgroup class="d-flex justify-content-between">
-          <h2 class="color2 fs-6">Running</h2>
+          <h2 class="color2 fs-6 fthb">Casual</h2>
           <a class="fss text-decoration-none color3" href="#">See All</a>
         </hgroup>
-        <div class="py-3">
-          <div>
-            <a href="#"><img class="img-fluid w-100" src="./img/sneaker1.jpg" alt="img"></a>
+        <div class="products-grid">
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker1.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
+            </div>
           </div>
-          <div class="border px-3 pt-2 color2">
-            <h3 class="m-0">Nike Red Hell</h3>
-            <h6 class="color1 ftgb">Nike's newest addition</h6>
-            <span>Sizes 8, 9, 9.5, 10, 11</span>
-            <div class="d-flex justify-content-between pt-4 pb-2">
-              <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
-              <span>$<strong class="color1">1200</strong></span>
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker2.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
+            </div>
+          </div>
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker3.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
+            </div>
+          </div>
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker4.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="py-3">
-          <div>
-            <a href="#"><img class="img-fluid w-100" src="./img/sneaker1.jpg" alt="img"></a>
-          </div>
-          <div class="border px-3 pt-2 color2">
-            <h3 class="m-0">Nike Red Hell</h3>
-            <h6 class="color1 ftgb">Nike's newest addition</h6>
-            <span>Sizes 8, 9, 9.5, 10, 11</span>
-            <div class="d-flex justify-content-between pt-4 pb-2">
-              <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
-              <span>$<strong class="color1">1200</strong></span>
+      </section>
+      <section class="container-wide bg-medium my-3 py-2 shadow">
+        <hgroup class="d-flex justify-content-between">
+          <h2 class="color2 fs-6 fthb">Running</h2>
+          <a class="fss text-decoration-none color3" href="#">See All</a>
+        </hgroup>
+        <div class="products-grid">
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker1.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="py-3">
-          <div>
-            <a href="#"><img class="img-fluid w-100" src="./img/sneaker1.jpg" alt="img"></a>
-          </div>
-          <div class="border px-3 pt-2 color2">
-            <h3 class="m-0">Nike Red Hell</h3>
-            <h6 class="color1 ftgb">Nike's newest addition</h6>
-            <span>Sizes 8, 9, 9.5, 10, 11</span>
-            <div class="d-flex justify-content-between pt-4 pb-2">
-              <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
-              <span>$<strong class="color1">1200</strong></span>
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker2.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="py-3">
-          <div>
-            <a href="#"><img class="img-fluid w-100" src="./img/sneaker1.jpg" alt="img"></a>
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker3.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
+            </div>
           </div>
-          <div class="border px-3 pt-2 color2">
-            <h3 class="m-0">Nike Red Hell</h3>
-            <h6 class="color1 ftgb">Nike's newest addition</h6>
-            <span>Sizes 8, 9, 9.5, 10, 11</span>
-            <div class="d-flex justify-content-between pt-4 pb-2">
-              <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
-              <span>$<strong class="color1">1200</strong></span>
+          <div class="py-3">
+            <div>
+              <a href="#"><img class="img-fluid w-100" src="./img/sneaker4.jpg" alt="img"></a>
+            </div>
+            <div class="border px-3 pt-2 color2">
+              <h3 class="m-0">Nike Red Hell</h3>
+              <h6 class="color1 fthb">Nike's newest addition</h6>
+              <span>Sizes 8, 9, 9.5, 10, 11</span>
+              <div class="d-flex justify-content-between pt-4 pb-2">
+                <input class="add border p-1" type="image" name="add" value="add" src="./img/add.png">
+                <span>$<strong class="color1">1200</strong></span>
+              </div>
             </div>
           </div>
         </div>
@@ -190,7 +278,7 @@
           <ul class="list">
             <li>
               <label class="color1 label" for="language">Language</label>
-              <select id="language" class="input color2 border-0" name="country">
+              <select id="language" class="input color2 border-0 bg-light color2" name="country">
                 <option value="Español" >Español</option>
                 <option value="English" selected>English</option>
                 <option value="Portugês">Portugês</option>
@@ -198,16 +286,16 @@
             </li>
             <li>
               <label class="color1 label" for="country">Country</label>
-              <select id="country" class="input color2 border-0" name="country">
-                <option value="Colombia" selected>Colombia</option>
-                <option value="U.S.">U.S.</option>
+              <select id="country" class="input color2 border-0 bg-light color2" name="country">
+                <option value="Colombia">Colombia</option>
+                <option value="U.S." selected>U.S.</option>
                 <option value="Brazil">Brazil</option>
                 <option value="Venezuela">Venezuela</option>
               </select>
             </li>
             <li>
               <label class="color1 label" for="currency">Currency</label>
-              <select id="currency" class="input color2 border-0" name="country">
+              <select id="currency" class="input color2 border-0 bg-light color2" name="country">
                 <option value="Peso" >Peso</option>
                 <option value="Dolar" selected>Dollar</option>
                 <option value="Real">Real</option>
