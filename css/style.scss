@@ -13,6 +13,30 @@ body {
 	font-family: Helvetica-Neue-Light;
 }
 
+/* Containers */
+.container-wide {
+	max-width: 1200px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.carousel-container {
+	width: 850px;
+	margin: auto;
+}
+
+.footer-logo-container {
+	width: 150px;
+}
+
+.header-img {
+	background-image: url("../img/cover-cropped.png");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: darken;
+}
+
 /* Backgrounds */
 .bg1 {
 	background-color: $color1;
@@ -20,6 +44,10 @@ body {
 
 .bg3 {
 	background-color: $color3;
+}
+
+.bg-medium {
+	background-color: $medium;
 }
 
 /* Font */
@@ -65,6 +93,11 @@ body {
 	width: 24px;
 }
 
+.footer-logo {
+	width: 64px;
+	height: 64px;
+}
+
 /* SVG */
 .svg-fill1 {
 	fill: $color1;
@@ -95,4 +128,13 @@ body {
 .input {
 	width: 180px;
 	height: 30px;
+}
+
+.add {
+	width: 24px;
+	height: 24px;
+}
+
+.label {
+	width: 80px;
 }
