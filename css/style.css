@@ -1,0 +1,90 @@
+@import "font.css";
+body {
+  padding: 0;
+  margin: 0;
+  color: #383838;
+  font-family: Helvetica-Neue-Light;
+}
+
+/* Backgrounds */
+.bg1 {
+  background-color: #d35266;
+}
+
+.bg3 {
+  background-color: #383838;
+}
+
+/* Font */
+.ftgb {
+  font-family: Gotham-Bold;
+}
+
+.ftgl {
+  font-family: Gotham-Rounded-Light;
+}
+
+.fthm {
+  font-family: Helvetica-Neue-Medium;
+}
+
+.fthb {
+  font-family: Helvetica-Neue-Bold;
+}
+
+.fss {
+  font-size: 0.8rem;
+}
+
+.color1 {
+  color: #d35266;
+}
+
+.color2 {
+  color: #888;
+}
+
+.color3 {
+  color: #383838;
+}
+
+.color-light {
+  color: white;
+}
+
+/* Icons */
+.icon {
+  width: 24px;
+  width: 24px;
+}
+
+/* SVG */
+.svg-fill1 {
+  fill: #d35266;
+}
+
+.svg-fill2 {
+  fill: #888;
+}
+
+/* Lists */
+.list {
+  padding: 0;
+  margin: 0;
+}
+.list li {
+  padding: 0 5px;
+  list-style: none;
+}
+
+.list-display li {
+  display: inline-block;
+}
+
+/* Inputs */
+.input {
+  width: 180px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

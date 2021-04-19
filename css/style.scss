@@ -1,0 +1,98 @@
+@import "font.css";
+
+$color1: #d35266;
+$color2: #888;
+$color3: #383838;
+$light: white;
+$medium: #f2f2f2;
+
+body {
+	padding: 0;
+	margin: 0;
+	color: $color3;
+	font-family: Helvetica-Neue-Light;
+}
+
+/* Backgrounds */
+.bg1 {
+	background-color: $color1;
+}
+
+.bg3 {
+	background-color: $color3;
+}
+
+/* Font */
+.ftgb {
+	font-family: Gotham-Bold;
+}
+
+.ftgl {
+	font-family: Gotham-Rounded-Light;
+}
+
+.fthm {
+	font-family: Helvetica-Neue-Medium;
+}
+
+.fthb {
+	font-family: Helvetica-Neue-Bold;
+}
+
+.fss {
+	font-size: 0.8rem;
+}
+
+.color1 {
+	color: $color1;
+}
+
+.color2 {
+	color: $color2;
+}
+
+.color3 {
+	color: $color3;
+}
+
+.color-light {
+	color: $light;
+}
+
+/* Icons */
+.icon {
+	width: 24px;
+	width: 24px;
+}
+
+/* SVG */
+.svg-fill1 {
+	fill: $color1;
+}
+
+.svg-fill2 {
+	fill: $color2;
+}
+
+/* Lists */
+.list {
+	padding:0;
+	margin: 0;
+	li {
+		padding: 0 5px;
+		list-style: none;
+	}
+}
+
+.list-display {
+	li {
+		display: inline-block;
+	}
+}
+
+/* Inputs */
+
+.input {
+	width: 180px;
+	height: 30px;
+}
