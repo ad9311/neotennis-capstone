@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   color: #383838;
-  font-family: Helvetica-Neue-Light;
+  font-family: "Helvetica-Neue-Light", sans-serif;
 }
 
 /* Containers */
@@ -36,7 +36,6 @@ body {
   background-image: url("../img/cover-cropped.png");
   background-size: cover;
   background-position: center;
-  background-blend-mode: darken;
 }
 
 .buy {
@@ -49,6 +48,12 @@ body {
 .buy input {
   border: transparent;
   border-left: 1px solid #383838;
+}
+
+.footer-p {
+  width: auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Backgrounds */
@@ -70,19 +75,19 @@ body {
 
 /* Font */
 .ftgb {
-  font-family: Gotham-Bold;
+  font-family: "Gotham-Bold", sans-serif;
 }
 
 .ftgl {
-  font-family: Gotham-Rounded-Light;
+  font-family: "Gotham-Rounded-Light", sans-serif;
 }
 
 .fthm {
-  font-family: Helvetica-Neue-Medium;
+  font-family: "Helvetica-Neue-Medium", sans-serif;
 }
 
 .fthb {
-  font-family: Helvetica-Neue-Bold;
+  font-family: "Helvetica-Neue-Bold", sans-serif;
 }
 
 .fss {
@@ -105,10 +110,43 @@ body {
   color: white;
 }
 
+/* Text */
+.product-text {
+  width: 120px;
+}
+
+/* Hover */
+.white-hover-gray {
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.white-hover-gray:hover {
+  color: #383838;
+}
+
+.gray-hover-smoke {
+  color: #888;
+  transition-duration: 0.5s;
+}
+
+.gray-hover-smoke:hover {
+  color: #383838;
+}
+
+.gray-hover-red {
+  color: #888;
+  transition-duration: 0.5s;
+}
+
+.gray-hover-red:hover {
+  color: #d35266;
+}
+
 /* Icons */
 .icon {
   width: 24px;
-  width: 24px;
+  height: 24px;
 }
 
 .footer-logo {
@@ -150,17 +188,36 @@ body {
 }
 
 .add {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+}
+
+.add:hover {
+  background-color: #d35266;
+  transition-duration: 0.5s;
 }
 
 .label {
   width: 80px;
 }
 
+.hover-op {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.hover-op:hover {
+  opacity: 0.7;
+}
+
 /* Grids */
 .products-grid {
   display: block;
+}
+
+/* Borders */
+.bottom-border {
+  border-bottom: 1px solid #d35266;
 }
 
 @media (min-width: 576px) {
@@ -185,6 +242,11 @@ body {
     column-gap: 15px;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
+  }
+}
+@media (min-width: 992px) {
+  .footer-p {
+    width: 350px;
   }
 }
 
