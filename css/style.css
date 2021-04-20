@@ -14,6 +14,13 @@ body {
   padding-right: 15px;
 }
 
+.container-medium {
+  max-width: 680px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .carousel-container {
   width: 850px;
   margin: auto;
