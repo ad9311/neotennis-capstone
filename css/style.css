@@ -166,8 +166,8 @@ body {
 }
 
 .nav-links {
-  transition-duration: 0.5s;
   color: #888;
+  transition-duration: 0.5s;
 }
 .nav-links svg {
   transition-duration: 0.5s;

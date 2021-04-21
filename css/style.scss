@@ -174,8 +174,9 @@ body {
 }
 
 .nav-links {
-  transition-duration: 0.5s;
   color: $color2;
+  transition-duration: 0.5s;
+
   svg {
     transition-duration: 0.5s;
     fill: $color2;
@@ -184,6 +185,7 @@ body {
 
 .nav-links:hover {
   color: $color1;
+
   svg {
     fill: $color1;
   }
@@ -243,7 +245,7 @@ body {
 }
 
 .add {
-  fill: $color3
+  fill: $color3;
 }
 
 .add:hover {

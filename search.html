@@ -76,7 +76,7 @@
                 <input class="input border-0" type="text" name="location" placeholder="Country/Region" value="">
               </li>
               <li>
-                <a class="text-decoration-none" href="./search.html"><input class="input input-search bg3 color2 border-0 fthm" type="button" name="search" value="Search"></a>
+                <input class="input input-search bg3 gray-hover-red border-0 fthm" type="button" name="search" value="Search" onclick="window.location.href='./search.html'">
               </li>
             </ul>
           </div>
@@ -120,11 +120,39 @@
           <div class="color2 fthm pt-3 pb-2">
             <div class="d-flex justify-content-between">
               <span>We have found <strong>18</strong> results.</span>
-              <button class="d-block d-lg-none py-1 px-2 bg3 border-0" type="button" name="button" data-bs-toggle="collapse" data-bs-target="#filter" aria-expanded="false" aria-controls="filter">Filter</button>
+              <button class="d-block d-lg-none py-1 px-2 bg3 border-0 gray-hover-red" type="button" name="button" data-bs-toggle="collapse" data-bs-target="#filter" aria-expanded="false" aria-controls="filter">Filter</button>
             </div>
             <div class="collapse" id="filter">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              <div class="card card-body my-2">
+                <ul class="list">
+                  <li><label class="ftgb pt-2" for="type">Type</label></li>
+                  <hr class="m-0">
+                  <li id="type">
+                    <input type="checkbox" name="sneaker" value="All" checked> All<br>
+                    <input type="checkbox" name="sneaker" value="Running"> Running<br>
+                    <input type="checkbox" name="sneaker" value="High Performance"> High Performance<br>
+                    <input type="checkbox" name="sneaker" value="Beach"> Beach<br>
+                    <input type="checkbox" name="sneaker" value="Cleats"> Cleats<br>
+                    <input type="checkbox" name="sneaker" value="Casual"> Casual<br>
+                    <input type="checkbox" name="sneaker" value="Walking"> Walking<br>
+                  </li>
+                  <li><label class="ftgb pt-2" for="brand">Type</label></li>
+                  <hr class="m-0">
+                  <li id="brand">
+                    <input type="checkbox" name="brand" value="All" checked> All<br>
+                    <input type="checkbox" name="brand" value="Nike"> Nike<br>
+                    <input type="checkbox" name="brand" value="Addias"> Addias<br>
+                    <input type="checkbox" name="brand" value="Converse"> Converse<br>
+                  </li>
+                  <li><label class="ftgb pt-2" for="price">Price</label></li>
+                  <hr class="m-0">
+                  <li id="price">
+                    <input type="checkbox" name="price" value="All" checked> All<br>
+                    <input type="checkbox" name="price" value="Nike"> $100 - $200<br>
+                    <input type="checkbox" name="price" value="Addias"> $200 - 300<br>
+                    <input type="checkbox" name="price" value="Converse"> $300+<br>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -139,15 +167,15 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Vans Pro</h3></a>
                   <h4 class="color1">Brand new</h4>
                   <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
                   <label class="fthb color1">Free Shipping!</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                  <label class="ftgb">320 Sold</label>
+                  <label class="ftgb">1400 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$80</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -155,7 +183,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop2.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -163,7 +191,7 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Addidas TX</h3></a>
                   <h4 class="color1">Brand new</h4>
                   <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
                   <label class="fthb color1">Free Shipping!</label>
@@ -171,7 +199,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <label class="ftgb">320 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$260</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -179,7 +207,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop3.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -187,15 +215,15 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Converse Classic</h3></a>
                   <h4 class="color1">Brand new</h4>
-                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <p>Eget egestas purus viverra accumsan in nisl nisi scelerisque. Tortor condimentum lacinia quis vel eros donec ac. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.</p>
                   <label class="fthb color1">Free Shipping!</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                  <label class="ftgb">320 Sold</label>
+                  <label class="ftgb">510 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$100</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -203,7 +231,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop4.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -211,15 +239,15 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Nike Fire</h3></a>
                   <h4 class="color1">Brand new</h4>
-                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <p>Eget egestas purus viverra accumsan in nisl nisi scelerisque. Tortor condimentum lacinia quis vel eros donec ac. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.</p>
                   <label class="fthb color1">Free Shipping!</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                  <label class="ftgb">320 Sold</label>
+                  <label class="ftgb">140 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$270</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -227,7 +255,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop5.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -235,15 +263,15 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Nike Air</h3></a>
                   <h4 class="color1">Brand new</h4>
-                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <p>Vel eros donec ac odio. Tincidunt augue interdum velit euismod in pellentesque. Quis eleifend quam adipiscing vitae. Velit dignissim sodales ut eu sem integer vitae justo.</p>
                   <label class="fthb color1">Free Shipping!</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                  <label class="ftgb">320 Sold</label>
+                  <label class="ftgb">140 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$175</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -251,7 +279,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop6.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -259,7 +287,7 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Nike S</h3></a>
                   <h4 class="color1">Brand new</h4>
                   <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
                   <label class="fthb color1">Free Shipping!</label>
@@ -267,7 +295,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <label class="ftgb">320 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$310</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -275,7 +303,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop7.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -283,15 +311,15 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Nike Coffee</h3></a>
                   <h4 class="color1">Brand new</h4>
-                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <p>Vel eros donec ac odio. Tincidunt augue interdum velit euismod in pellentesque. Quis eleifend quam adipiscing vitae. Velit dignissim sodales ut eu sem integer vitae justo.</p>
                   <label class="fthb color1">Free Shipping!</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                   <label class="ftgb">320 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$180</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -299,7 +327,7 @@
             </div>
             <div class="row p-2 border">
               <div class="col-md-6 position-relative">
-                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop8.jpg" alt="sneaker"></a>
                 <div class="controllers bg3 d-lg-flex px-2 py-1">
                   <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
                   <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
@@ -307,15 +335,63 @@
               </div>
               <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
                 <div>
-                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Nike Cartoon</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>Adipiscing tristique risus nec feugiat in fermentum. Sed vulputate mi sit amet mauris commodo quis imperdiet. </p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">1341 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$250</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker14.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Converse Crunch</h3></a>
                   <h4 class="color1">Brand new</h4>
                   <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
                   <label class="fthb color1">Free Shipping!</label>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                  <label class="ftgb">320 Sold</label>
+                  <label class="ftgb">365 Sold</label>
                   <div class="bg1 buy fthm">
-                    <label class="pe-2 color-light">$1200</label>
+                    <label class="pe-2 color-light">$90</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker16.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Nike Gxt</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>Adipiscing tristique risus nec feugiat in fermentum. Sed vulputate mi sit amet mauris commodo quis imperdiet.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">327 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$240</label>
                     <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
                   </div>
                 </div>
@@ -324,7 +400,7 @@
           </div>
         </section>
       </div>
-      <section class="text-center p-3">
+      <section class="text-center py-3">
         <nav>
           <ul class="list list-display list-pag ftgb">
             <li>
@@ -382,10 +458,10 @@
                 <h4 class="color1 fs-6 fthm">CREDITS</h4>
               </div>
               <div class="text-nowrap pt-2">
-                <a class="d-block text-decoration-none" href="#"><span class="gray-hover-smoke">Microverse</span></a>
-                <a class="d-block text-decoration-none" href="#"><span class="gray-hover-smoke">Mohammed Awad</span></a>
-                <a class="d-block text-decoration-none" href="#"><span class="gray-hover-smoke">Cristian Viorel</span></a>
-                <a class="d-block text-decoration-none" href="#"><span class="gray-hover-smoke">Full Credits</span></a>
+                <a class="d-block text-decoration-none" href="https://www.microverse.org/"><span class="gray-hover-smoke">Microverse</span></a>
+                <a class="d-block text-decoration-none" href="https://www.behance.net/M_Awad"><span class="gray-hover-smoke">Mohammed Awad</span></a>
+                <a class="d-block text-decoration-none" href="https://www.notion.so/ZATTIX-design-full-view-ed43f6bdfe0144608d4f2fc18758e81a"><span class="gray-hover-smoke">Cristian Viorel</span></a>
+                <a class="d-block text-decoration-none" href="./README.md"><span class="gray-hover-smoke">Full Credits</span></a>
               </div>
             </div>
           </div>
