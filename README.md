@@ -20,9 +20,11 @@ It consists of two pages, the home page and the search page, shown respectively 
 
 ### Getting Started
 
-If you want to check the source code out clone the repo. To know more about cloning and how git works check this page [Getting Started With Git](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git).
+If you want to check the source code out clone the repo. To know more about cloning and how git works check this page [Getting Started With Git](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git). But in short you can just clik the green button on top and download a .zip file, after decrompressing it, inside you will find a home.html, double click it and it should open in your browser.
 \
-Also you can check the fully functional live version. 👇🏽️
+Also you can check the fully functional live version here [NeoTennis](https://ad9311.github.io/neotennis/). If you click it you'll be taken to the home page.
+
+If you would like to edit the files and especially the css file, you will need to use Sass to edit it. It is very simple, go ahead and [Install Sass](https://sass-lang.com/install) and use your command line tool to compile it. More instructions here [Sass Guide](https://sass-lang.com/guide).
 
 ### Live Version Here 👇🏽️
 
