@@ -20,21 +20,21 @@
           </div>
           <ul class="list list-display">
             <li>
-              <a class="text-decoration-none" href="#">
-                <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/></svg>
-                <span class="color1 ftgl fss">HOME</span>
+              <a class="text-decoration-none nav-links" href="./home.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/></svg>
+                <span class="ftgl fss">HOME</span>
               </a>
             </li>
             <li class="d-none d-sm-inline-block">
-              <a class="text-decoration-none" href="#">
-                <svg class="svg-fill2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M19 11h-14v-2h14v2zm0 2h-14v2h14v-2zm0 4h-14v2h14v-2zm3-11v16h-20v-16h20zm2-6h-24v24h24v-24z"/></svg>
-                <span class="gray-hover-red ftgl fss">CATEGORIES</span>
+              <a class="text-decoration-none nav-links" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M19 11h-14v-2h14v2zm0 2h-14v2h14v-2zm0 4h-14v2h14v-2zm3-11v16h-20v-16h20zm2-6h-24v24h24v-24z"/></svg>
+                <span class="ftgl fss">CATEGORIES</span>
               </a>
             </li>
-            <li class="svg-fill1-hover-red">
-              <a class="text-decoration-none" href="#">
-                <svg class="svg-fill2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"/></svg>
-                <span class="gray-hover-red ftgl fss">SEARCH</span>
+            <li>
+              <a class="text-decoration-none" href="./search.html">
+                <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M9.145 18.29c-5.042 0-9.145-4.102-9.145-9.145s4.103-9.145 9.145-9.145 9.145 4.103 9.145 9.145-4.102 9.145-9.145 9.145zm0-15.167c-3.321 0-6.022 2.702-6.022 6.022s2.702 6.022 6.022 6.022 6.023-2.702 6.023-6.022-2.702-6.022-6.023-6.022zm9.263 12.443c-.817 1.176-1.852 2.188-3.046 2.981l5.452 5.453 3.014-3.013-5.42-5.421z"/></svg>
+                <span class="color1 ftgl fss">SEARCH</span>
               </a>
             </li>
             <li class="d-none d-md-inline-block">
@@ -76,7 +76,7 @@
                 <input class="input border-0" type="text" name="location" placeholder="Country/Region" value="">
               </li>
               <li>
-                <input class="input input-search bg3 color2 border-0 fthm" type="button" name="search" value="Search">
+                <a class="text-decoration-none" href="./search.html"><input class="input input-search bg3 color2 border-0 fthm" type="button" name="search" value="Search"></a>
               </li>
             </ul>
           </div>
@@ -85,36 +85,263 @@
     </header>
     <main class="bg-medium">
       <div class="container-wide row">
-        <div class="d-none">
+        <div class="d-none d-lg-block col-lg-3 mt-5 border">
           <ul class="list">
-            <li><label class="ftgb" for="type">Type</label></li>
+            <li><label class="ftgb pt-2" for="type">Type</label></li>
             <hr class="m-0">
             <li id="type">
               <input type="checkbox" name="sneaker" value="All" checked> All<br>
               <input type="checkbox" name="sneaker" value="Running"> Running<br>
               <input type="checkbox" name="sneaker" value="High Performance"> High Performance<br>
-              <input type="checkbox" name="sneaker" value="Hiking"> Hiking<br>
+              <input type="checkbox" name="sneaker" value="Beach"> Beach<br>
+              <input type="checkbox" name="sneaker" value="Cleats"> Cleats<br>
+              <input type="checkbox" name="sneaker" value="Casual"> Casual<br>
+              <input type="checkbox" name="sneaker" value="Walking"> Walking<br>
             </li>
-            <li><label class="ftgb" for="type">Type</label></li>
+            <li><label class="ftgb pt-2" for="brand">Type</label></li>
             <hr class="m-0">
-            <li id="type">
-              <input type="checkbox" name="sneaker" value="All" checked> All<br>
-              <input type="checkbox" name="sneaker" value="Running"> Running<br>
-              <input type="checkbox" name="sneaker" value="High Performance"> High Performance<br>
-              <input type="checkbox" name="sneaker" value="Hiking"> Hiking<br>
+            <li id="brand">
+              <input type="checkbox" name="brand" value="All" checked> All<br>
+              <input type="checkbox" name="brand" value="Nike"> Nike<br>
+              <input type="checkbox" name="brand" value="Addias"> Addias<br>
+              <input type="checkbox" name="brand" value="Converse"> Converse<br>
+            </li>
+            <li><label class="ftgb pt-2" for="price">Price</label></li>
+            <hr class="m-0">
+            <li id="price">
+              <input type="checkbox" name="price" value="All" checked> All<br>
+              <input type="checkbox" name="price" value="Nike"> $100 - $200<br>
+              <input type="checkbox" name="price" value="Addias"> $200 - 300<br>
+              <input type="checkbox" name="price" value="Converse"> $300+<br>
             </li>
           </ul>
         </div>
-        <section class="">
-          <div class="color2 fthm">
-            <span>We have found <strong>18</strong> results.</span>
-            <input type="button" name="filter" value="Filter">
+        <section class="col-lg-9">
+          <div class="color2 fthm pt-3 pb-2">
+            <div class="d-flex justify-content-between">
+              <span>We have found <strong>18</strong> results.</span>
+              <button class="d-block d-lg-none py-1 px-2 bg3 border-0" type="button" name="button" data-bs-toggle="collapse" data-bs-target="#filter" aria-expanded="false" aria-controls="filter">Filter</button>
+            </div>
+            <div class="collapse" id="filter">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              </div>
+            </div>
           </div>
-          <div class="">
-            
+          <div class="search-results-grid">
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 border">
+              <div class="col-md-6 position-relative">
+                <a href="#"><img class="img-fluid w-100" src="./img/sneaker-shop1.jpg" alt="sneaker"></a>
+                <div class="controllers bg3 d-lg-flex px-2 py-1">
+                  <svg class="svg-fill1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l18-12v24z"/></svg>
+                  <svg class="svg-fill1 ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                </div>
+              </div>
+              <div class="d-flex flex-column justify-content-between col-md-6 pt-2">
+                <div>
+                  <a class="text-decoration-none" href="#"><h3 class="smoke-hover-red ftgb">Some Shoes</h3></a>
+                  <h4 class="color1">Brand new</h4>
+                  <p>In hendrerit gravida rutrum quisque non. Ac orci phasellus egestas tellus rutrum. At lectus urna duis convallis convallis tellus id interdum velit.</p>
+                  <label class="fthb color1">Free Shipping!</label>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <label class="ftgb">320 Sold</label>
+                  <div class="bg1 buy fthm">
+                    <label class="pe-2 color-light">$1200</label>
+                    <input class="ps-2 bg1 white-hover-gray" type="button" name="add" value="Purchase">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
+      <section class="text-center p-3">
+        <nav>
+          <ul class="list list-display list-pag ftgb">
+            <li>
+              <a class="text-decoration-none bg-light px-3 py-1 border" href="#"><span class="gray-hover-red">Prev</span></a>
+            </li>
+            <li>
+              <a class="text-decoration-none bg1 px-3 py-1 border" href="#"><span class="color3">1</span></a>
+              <a class="text-decoration-none bg-light px-3 py-1 border" href="#"><span class="gray-hover-red">2</span></a>
+              <a class="text-decoration-none bg-light px-3 py-1 border" href="#"><span class="gray-hover-red">3</span></a>
+              <a class="text-decoration-none bg-light px-3 py-1 border" href="#"><span class="gray-hover-red">...</span></a>
+            </li>
+            <li>
+              <a class="text-decoration-none bg-light px-3 py-1 border" href="#"><span class="gray-hover-red">Next</span></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </main>
     <footer class="container-wide mt-5">
       <div class="d-lg-flex align-items-center">
