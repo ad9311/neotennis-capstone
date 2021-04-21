@@ -3,7 +3,9 @@
 # NeoTennis
 
 This project is part of the [Microverse](https://www.microverse.org/) HTML capstone project.
-This page simulates an online sneaker shop. It consists of two pages, the home page and the search page, shown respectively in the screenshots below. This page supports mobile, table and desktop devices.
+This page simulates an online sneaker shop.
+\
+It consists of two pages, the home page and the search page, shown respectively in the screenshots below. This page supports mobile, table and desktop devices.
 
 ![Screenshot #1](/img/screenshot1.png)
 &nbsp;
@@ -11,14 +13,15 @@ This page simulates an online sneaker shop. It consists of two pages, the home p
 
 ### Built With
 
-- HTML
-- CSS
-- SASS
-- Bootstrap
+- ![HTML](https://img.shields.io/badge/-HTML-blue)
+- ![CSS](https://img.shields.io/badge/-CSS-red)
+- ![Sass](https://img.shields.io/badge/-Sass-pink)
+- ![bootstrap](https://img.shields.io/badge/-Bootstrap-purple)
 
 ### Getting Started
 
 If you want to check the source code out clone the repo. To know more about cloning and how git works check this page [Getting Started With Git](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git).
+\
 Also you can check the fully functional live version. 👇🏽️
 
 ### Live Version Here 👇🏽️

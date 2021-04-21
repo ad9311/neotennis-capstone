@@ -136,6 +136,10 @@ body {
   width: 120px;
 }
 
+.hide-small {
+  display: none;
+}
+
 /* Hover */
 .white-hover-gray {
   color: $light;
@@ -278,6 +282,12 @@ body {
 /* Borders */
 .bottom-border {
   border-bottom: 1px solid $color1;
+}
+
+@media (min-width: 368px) {
+  .hide-small {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 576px) {
