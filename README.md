@@ -28,7 +28,7 @@ If you would like to edit the files and especially the css file, you will need t
 
 ### Live Version Here 👇🏽️
 
-- [NeoTennis](https://ad9311.github.io/neotennis/)
+- [NeoTennis](https://ad9311.github.io/neotennis-capstone/)
 
 ### Authors
 
